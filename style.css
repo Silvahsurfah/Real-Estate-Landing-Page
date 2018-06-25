@@ -1,3 +1,35 @@
+* {
+  box-sizing:border-box;
+}
+
 body {
-  
+  margin:0;
+}
+/* Global */
+.container {
+  padding: 40px;
+}
+
+.top-label{
+  width: 100%;
+  padding:0%;
+  margin: 0%;
+  background:#30517F;
+}
+
+.top-label ul {
+  margin:0;
+  padding: 20px;
+}
+
+.top-label ul li{
+  float: left;
+  display: inline;
+  padding-left: 20px;
+  padding-top: 1px;
+}
+
+.top-label a {
+  color: #fff;
+  text-decoration: none;
 }
