@@ -114,3 +114,65 @@ color: #fff;
   width: 140px;
   height: 25px;
 }
+
+/* Section 1 */
+
+#background-img1 {
+background:linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, .5), rgba(255, 255, 255, 0)),url('bedroom-gray.jpeg');
+background-position: fixed;
+background-size: cover;
+height: 80vh;
+padding-top: 100px;
+padding-left: 625px;
+}
+
+.section1 {
+  width: 500px;
+  padding-bottom:45px;
+  padding-left:20px;
+  color: #000;
+  border-top:
+}
+
+.section1 button {
+  width: 200px;
+  height: 40px;
+  font-size: 1rem;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background:rgba(255, 255, 255,0.2);
+  color: #000;
+}
+
+/* Section 2 */
+#background-img2 {
+  background:linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, .5), rgba(255, 255, 255, 0)),url('business.jpeg');
+  background-position: fixed;
+  background-size: cover;
+  height: 75vh;
+  padding-top: 100px;
+  padding-right: 625px;
+}
+
+.section2 {
+  width: 500px;
+  padding-bottom:45px;
+  padding-left:20px;
+  color: #000;
+}
+
+.section2 button {
+  width: 200px;
+  height: 40px;
+  font-size: 1rem;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background:rgba(255, 255, 255,0.2);
+  color: #000;
+}
+
+/* Section 3*/
+
+.section3 {
+  background:#30517F;
+}
