@@ -116,6 +116,11 @@ color: #fff;
   font-family: century gothic, helevetica, sans-serif;
 }
 
+.search-box button:hover {
+  background: rgba(255, 255, 255, .4);
+  color: #000;
+}
+
 .search-pulldown {
 text-align: center;
 color: #fff;
@@ -123,7 +128,7 @@ color: #fff;
 
 .search-pulldown select {
   padding-right: 50px;
-  width: 140px;
+  width: 15%;
   height: 25px;
 }
 
@@ -156,6 +161,12 @@ padding-left: 625px;
   color: #000;
 }
 
+.section1 button:hover {
+  background:#30517F;
+  color: #fff;
+  border-color: #fff;
+}
+
 /* Section 2 */
 #background-img2 {
   background:linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, .5), rgba(255, 255, 255, 0)),url('business.jpeg');
@@ -183,6 +194,12 @@ padding-left: 625px;
   border-radius: 15px;
   background:rgba(255, 255, 255,0.2);
   color: #000;
+}
+
+.section2 button:hover {
+  background:#30517F;
+  color: #fff;
+  border-color: #fff;
 }
 
 /* Section 3*/
@@ -265,4 +282,14 @@ footer {
 
 footer p{
   font-size: .6rem;
+}
+
+@media screen and (max-width:760px){
+  .search-pulldown select {
+    width: 55%;
+    height: 25px;
+  }
+  .search-pulldown label {
+padding-left: 60px;
+  }
 }
